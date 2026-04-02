@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.nav_bar{
+    height:84px;
+    width:1016px;
+    background-color: #ffff;
+    display:flex;
+}
+.nav_logo{
+    height:48px;
+    width:113px;
+}
+.logo{
+    background-image: url("rapido\ logo.png");
+    background-size: cover;
+    height:48px;
+    width:100%;
+}
+.nav_content{
+    margin-left: 25%;
+}
+.content{
+    display:flex;
+
+}
+.content p{
+    margin:20px;
+    font-size: 20px;
+}
+/*miiiddle content*/
+.middle{
+    height:584px;
+    width:1016;
+        background-image: url("wall1.avif");  
+        background-size: cover;               
+        background-position: center;
+        color: white;                   
+        padding: 40px;
+        display:flex;
+    justify-content:center;
+    align-items:center;
+      
+      
+}
+.tittle{
+    height:92.5px;
+    width:601px;
+    background-color:#333333;
+    font-weight:700;
+    font-size:34px;
+    letter-spacing:0.5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:'Poppins', sans-serif;
+    color:white;
+}
+.middle{
+    display:flex;
+    flex-direction:column;
+ }
+ .current_loc{
+    background-color: #ffff;
+    height:72px;
+    width:600px;
+    margin-top: 20px;
+    border:black solid 2px;
+ }
+ .destination{
+    background-color: #ffff;
+    height:72px;
+    width:600px;
+    margin-top: 24px;
+    border:black solid 2px;
+    display:flex;
+ }
+ .current_loc{
+    font-size:30px;
+    color:black;
+    display:flex;
+   
+ }
+ .icon{
+    font-size:40px;
+    margin-top:10px;
+    
+ }
+ .icon2{
+    font-size:30px;
+    color:black;
+    margin-top:15px;
+ }
+ input{
+    width:90%;
+    height:55px;
+    font-size: 20px;
+    border: none;
+    margin-top:10px;
+ }
+ 
+ .button1 button{
+    width:240px;
+    height:55px;
+    background-color:  #ffca20;
+    color:black;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size: 40px;
+    margin-left:150px;
+    margin-top:15px;
+
+ }
+ 
+
+ .selection{
+    height:80px;
+    width: 600px;
+    background-color: #ffca20;
+    margin-top:20px;
+    
+ }
+ .serv{
+    height:68px;
+    width:1000px;
+    font-size: 48px;
+    margin-top:10px;
+ }
+ .services{
+   width:1000px;
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:space-evenly;
+   background:white;
+   padding:26px 10px 10px 0;
+
+ }
+ .bike{
+    height:186px;
+    width:180px;
+    color:aliceblue;
+ }
+ .pic{
+    background-image: url("images.jpg");
+    background-size: cover;               
+    background-position: center;
+    color: white;                   
+    padding:50px;
+ }
+.name{
+    height:31px ;
+    width:164px;
+    font-size: 22px;
+    margin-left:5px;
+    color:#333333;
+    text-align: center;
+    margin-top:8px;
+    font-weight:bold;
+}
+.AUTO{
+    height:186px;
+    width:180px;
+    color:aliceblue;
+ }
+ .pic1{
+    background-image: url("auto1.avif");
+    width:120px;
+    height:120px;
+    margin:auto;
+
+    background-size:cover;     /* makes image fill */
+    background-position:center;
+    background-repeat:no-repeat;
+
+    border-radius:10px;
+ }
+ .auto2{
+    height:186px;
+    width:180px;
+    color:aliceblue;
+ }
+ .pic2{
+    background-image: url("share_A.jpg");
+    width:120px;
+    height:120px;
+    margin:auto;
+
+    background-size:cover;    
+    background-position:center;
+    background-repeat:no-repeat;
+
+    border-radius:10px;
+ }
+
+ .cab{
+    height:186px;
+    width:180px;
+    color:aliceblue;
+ }
+ .pic3{
+    background-image: url("eco_cab.webp");
+    width:120px;
+    height:120px;
+    margin:auto;
+
+    background-size:cover;     
+    background-position:center;
+    background-repeat:no-repeat;
+
+    border-radius:10px;
+ }
+
+ .cab1{
+    height:186px;
+    width:180px;
+    color:aliceblue;
+ }
+ .pic4{
+    background-image: url("premium.jpg");
+    width:120px;
+    height:120px;
+    margin:auto;
+
+    background-size:cover;     
+    background-position:center;
+    background-repeat:no-repeat;
+
+    border-radius:10px;
+ }
+
+ .parcel{
+    height:186px;
+    width:180px;
+    color:aliceblue;
+ }
+ .pic5{
+    background-image: url("parcel\ new.webp");
+    width:120px;
+    height:120px;
+    margin:auto;
+
+    background-size:cover;   
+    background-position:center;
+    background-repeat:no-repeat;
+
+    border-radius:10px;
+ }
+
+ .extr_con{
+   height:694px;
+   width:1024px;
+   background-color: #f6f7f9;
+
+ }
+ .topic{
+   height:205px;
+   width:377px;
+   font-size: 50px;
+   color: #1A202A;
+   font-family: 'Noto Sans', sans-serif;
+  
+}
+.topic2{
+   height:250px;
+   width:377px;
+   font-size:30px;
+   font-family: 'Noto Sans', sans-serif;
+   padding:20px 0px 48px;
+}
+
+.book-btn button{
+   background:black;
+   color:white;
+   border:none;
+   height: 62px;
+   width:230;
+
+   padding:10px 20px;
+   font-size:16px;
+   font-weight:600;
+
+   border-radius:30px;      /* rounded corners */
+   cursor:pointer;
+
+   display:flex;
+   align-items:center;
+   gap:10px;
+
+   transition:0.3s;
+}
+
+/* hover effect*/
+.book-btn button:hover{
+   background:#222;
+   transform:scale(1.05);
+}
+
+/* arrow style */
+.arrow{
+   font-size:18px;
+}
+
+extr_pic{
+   background-image: url("pic_c.webp");
+   height:472px;
+   width:442px;
+   margin-left: 50%;
+   margin-bottom: 60%;
+   background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+/*footer*/
+.pannel1{
+   height:372px;
+   width:100%;
+   background-color: black;
+   
+}
+.down{
+   height:75px;
+   width:1024px;
+   margin-top:0px 0px 20px;
+   color:white;
+   font-size: 50px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
+.con2{
+   height:170px;
+   width:1024 px;
+   margin:64px 0px 0px;
+   display: flex;
+   margin-left: 30%;
+}
+.content2 {
+   display: flex;
+   flex-direction: column;   /* stack logo + text */
+   align-items: center;
+}
+.img{
+   
+      background-image: url("rapido\ logo.png"); /* rename file */
+      height: 200px;
+      width:200px;
+   
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+   
+      overflow: hidden;   /* 🔥 important fix */
+   }
+   .letter{
+      margin-top: 100px;   /* space below logo */
+      font-size: 28px;
+      color:white;
+      margin-top:10px ;
+   }
+
+   .last{
+      height:350px;
+      width:1064px;
+      padding:10px,20px;
+   }
+   .contain{
+      height:350px;
+      width:850px;
+      margin-left:15%;
+   }
+   .foot-pannel4{
+      background-color:white;
+      height: 100px;
+     color:black;
+     font-size: 0.8rem;
+    text-align: center;
+      display:flex;
+      
+    }
+
+    .pages{
+      display:flex;
+      font-size: 20px;
+      justify-content: space-evenly;
+      padding-top: 25px;
+      }
+      .copyright{
+          
+          padding-top:5px;
+      }
+      .option{
+         justify-items: center;
+         margin-left: 50px;
+      }
